@@ -1,0 +1,42 @@
+{
+  "name": "@pascaliske/renovate-config",
+  "description": "Shared Renovate Bot config.",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Pascal Iske",
+    "email": "info@pascaliske.dev",
+    "url": "https://pascaliske.dev"
+  },
+  "repository": {
+    "url": "https://github.com/pascaliske/renovate-config.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/pascaliske/renovate-config/issues"
+  },
+  "keywords": [
+    "renovate",
+    "config",
+    "configuration"
+  ],
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write \"**/*.{json,md,yml}\"",
+    "version": "bump --yes package.json",
+    "changelog": "standard-changelog -r 1"
+  },
+  "packageManager": "yarn@1.22.22",
+  "prettier": "@pascaliske/prettier-config",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@pascaliske/prettier-config": "^1.2.0",
+    "@rstacruz/bump-cli": "^2.0.1",
+    "husky": "^9.0.7",
+    "lint-staged": "^15.0.0",
+    "prettier": "^3.0.0",
+    "standard-changelog": "^6.0.0"
+  }
+}
