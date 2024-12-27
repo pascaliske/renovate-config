@@ -1,7 +1,7 @@
 {
   "name": "@pascaliske/renovate-config",
   "description": "Shared Renovate Bot config.",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "license": "MIT",
   "author": {
     "name": "Pascal Iske",
