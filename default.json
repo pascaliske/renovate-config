@@ -44,6 +44,10 @@
     {
       "matchPackageNames": ["/commitlint/"],
       "groupName": "commitlint"
+    },
+    {
+      "matchPackageNames": ["/eslint/"],
+      "groupName": "eslint"
     }
   ]
 }
