@@ -42,6 +42,10 @@
   ],
   "packageRules": [
     {
+      "matchPackageNames": ["/angular\//"],
+      "groupName": "angular"
+    },
+    {
       "matchPackageNames": ["/commitlint/"],
       "groupName": "commitlint"
     },
