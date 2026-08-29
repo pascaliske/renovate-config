@@ -1,6 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended", ":preserveSemverRanges", ":disableRateLimiting"],
+  "extends": [
+    "config:recommended",
+    ":preserveSemverRanges",
+    ":disableRateLimiting",
+    "helpers:pinGitHubActionDigests"
+  ],
   "assigneesFromCodeOwners": true,
   "reviewersFromCodeOwners": true,
   "labels": ["dependencies"],
