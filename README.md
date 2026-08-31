@@ -8,8 +8,8 @@
 
 ```json
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["pascaliske/renovate-config"]
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": ["pascaliske/renovate-config"]
 }
 ```
 
@@ -17,4 +17,4 @@ For more information visit the [Renovate documentation](https://docs.renovatebot
 
 ## License
 
-MIT © 2025 [Pascal Iske](https://pascaliske.dev)
+MIT © 2026 [Pascal Iske](https://pascaliske.dev)
