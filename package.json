@@ -21,22 +21,13 @@
     "configuration"
   ],
   "scripts": {
-    "prepare": "husky",
-    "format": "prettier --write \"**/*.{json,md,yml}\"",
-    "version": "bump --yes package.json",
-    "changelog": "standard-changelog -r 1"
+    "prepare": "husky"
   },
   "packageManager": "yarn@1.22.22",
-  "prettier": "@pascaliske/prettier-config",
   "dependencies": {},
   "devDependencies": {
-    "@commitlint/cli": "^20.0.0",
-    "@commitlint/config-conventional": "^20.0.0",
-    "@pascaliske/prettier-config": "^1.2.0",
-    "@rstacruz/bump-cli": "^2.0.1",
     "husky": "^9.0.7",
-    "lint-staged": "^16.0.0",
-    "prettier": "^3.0.0",
-    "standard-changelog": "^7.0.0"
+    "lint-staged.sh": "^0.6.9",
+    "oxfmt": "^0.65.0"
   }
 }
